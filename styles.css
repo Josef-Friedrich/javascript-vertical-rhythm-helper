@@ -2,6 +2,30 @@ main {
   max-width: 60em;
 }
 
+body {
+  position: relative;
+}
+
+body:after {
+  position: absolute;
+  width: auto;
+  height: auto;
+  z-index: 9999;
+  content: "";
+  display: block;
+  pointer-events: none;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url("grid.svg");
+  background-size: 4px 26px;
+}
+
+body:active:after {
+  display: none;
+}
+
 html {
   font-size: 100%;
   /* 1 */
@@ -11,11 +35,6 @@ html {
   /* 2 */
   /* Establishes a vertical rhythm unit using $base-line-height. */
   line-height: 1.625em;
-}
-
-main {
-  background-image: url(https://basehold.it/i/26);
-  /* 24px baseline */
 }
 
 h1 {
