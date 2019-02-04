@@ -5,6 +5,8 @@ main {
 }
 
 /**
+ * Show baselines
+ *
  * https://github.com/daneden/Basehold.it
  */
 
@@ -31,6 +33,10 @@ body:after {
 body:active:after {
 	display: none;
 }
+
+/**
+ * Main styles
+ */
 
 $base-font-size: 16px;
 $base-line-height: 26px;
