@@ -1,0 +1,3 @@
+[submodule "sass-imports/vertical-rhythms"]
+	path = sass-imports/vertical-rhythms
+	url = https://github.com/zellwk/vertical-rhythms-without-compass.git
